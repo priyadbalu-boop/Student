@@ -1,0 +1,13 @@
+class="wrap">
+<h1>Attendance Tracker</h1>
+<p class="stats" id="stats"></p>
+<form id="stuForm" novalidate>
+<label>Roll number<input id="roll" placeholder="21CS001"></label>
+<label>Student name<input id="name" placeholder="Arun Kumar"></label>
+<div class="full"><button type="submit">Add student</button>
+<span class="err" id="err" role="alert"></span></div>
+</form>
+<div class="tools">
+<label>Date<input id="date" type="date" required></label>
+<label class="grow">Search<input id="search" type="search" placeholder="Name or roll number"></label>
+<button id="allP" type="button"
